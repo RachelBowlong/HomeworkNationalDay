@@ -1,0 +1,30 @@
+<!DOCTYPE html >
+<html lang="zh-CN">
+<head>
+<title>报名系统</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" rel="stylesheet" href="D:\QSCwork\html\black&red_based_style.css" />
+
+</head>
+<body>
+<div class="main">
+    <form action="submitAct.php" method="post">
+        <p>
+            <span id = "head"> &nbsp基本信息 </span><br><br>
+    	<span id = "T">姓名</span> <input type="text" name="stuname"><br>
+    	<span id = "T">学号</span> <input type="text" name="stunum"><br>
+    	<span id = "T">专业</span> <input type="text" name="stumajor"><br>
+    	<span id = "T">手机</span> <input type="text" name="stuphone"><br>
+    	<span id = "T">邮箱</span> <input type="text" name="stuemail"><br>
+        </p>
+    	<p> <span id= "head" > &nbsp意向部门 </span><br />
+    		<span id= "department" >部门A</span> <input type="checkbox" name="dptA"><br />
+			<span id= "department" >部门B</span> <input type="checkbox" name="dptB"><br />
+		</p>
+    	<p><span id= "head" > &nbsp自我介绍 </span><br> <textarea name="selfdesc" rows="10" cols="40"></textarea></p>
+    	<p><a href="#" id="submit"><input type="submit" value="提交"></a> </ >
+    </form>
+</div>
+</body>
+</html>

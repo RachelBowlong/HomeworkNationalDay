@@ -1,0 +1,56 @@
+.main{
+    width: auto;
+    height: 600px;
+    margin: 0px auto;
+    padding: 0px;
+    border: 27px solid;
+    border-color: 
+    
+    rgba( 0, 0, 0, 1); 
+    text-align: center;
+    background: url(Chrysanthemum.jpg) center no-repeat;
+    background-size:100% 150%;
+    background-color: rgba(0, 0, 0, 1);
+    /*background: rgba( 199, 0, 2, 1);*/
+}
+#T{
+    color: rgba( 255, 255, 255, 0.9);
+    font-weight: 700;
+    font-size: 1em;
+    background: rgba(0, 0, 8, 0.5);
+}
+
+    /*
+    background:() 0px -90px repeat-x;
+    width:100%;
+    position:absolute;
+    top:90px;
+    text-indent:-10000px;*/
+
+#department{
+    
+
+    color: rgba( 255, 255, 255, 0.85);
+    font-weight: 700;
+    font-size: 1em;
+    background: rgba(20, 20, 20, 0.5);
+}
+#head{
+    background: rgba(8, 0, 255, 0.5);
+    color: rgba( 255, 250, 250, 0.89);
+    font-weight: 700;
+    font-size: 1.3em;
+    /*border: 2.6px solid;
+    border-color: 
+    rgba(0, 50, 150, 0.3)
+    rgba(0, 50, 150, 0.3)
+    rgba(0, 30, 200, 0.4)
+    rgba(0, 30, 200, 0.4);*/
+}
+
+#submit :hover {
+    background: rgba(0, 150, 100, 0.25);
+}
+#submit:active{ 
+    background: rgba(0, 150, 100, 0.25);
+}
